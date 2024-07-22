@@ -17,6 +17,11 @@ on:
 env:
   ACTIONS_STEP_DEBUG: true
 
+permissions:
+  pull-requests: write
+  issues: write
+  repository-projects: write
+
 jobs:
   execpokemonapi:
     runs-on: ubuntu-latest
